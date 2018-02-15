@@ -1,16 +1,16 @@
 <li class="dropdown user user-menu">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        <img src={{asset("AdminLTE-2.3.9/dist/img/user2-160x160.jpg")}} class="user-image" alt="User Image">
-        <span class="hidden-xs">Alexander Pierce</span>
+        <img src={{asset("AdminLTE-2.3.9/dist/img/img.JPG")}} class="user-image" alt="User Image">
+        <span class="hidden-xs">Steve-IT</span>
     </a>
     <ul class="dropdown-menu">
         <!-- User image -->
         <li class="user-header">
-            <img src={{asset("AdminLTE-2.3.9/dist/img/user2-160x160.jpg")}} class="img-circle" alt="User Image">
+            <img src={{asset("AdminLTE-2.3.9/dist/img/img.JPG")}} class="img-circle" alt="User Image">
 
             <p>
-                Alexander Pierce - Web Developer
-                <small>Member since Nov. 2012</small>
+                Steve-IT - Web Developer
+                <small>Member since Fev. 2018</small>
             </p>
         </li>
         <!-- Menu Body -->

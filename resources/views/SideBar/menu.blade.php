@@ -28,9 +28,9 @@
             <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
         </ul>
-    </li> -->
+    </li> 
 
-    <!--<li>
+    <li>
         <a href="pages/widgets.html">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
@@ -39,10 +39,61 @@
         </a>
     </li>-->
 
+   
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-th"></i>
+            <span>LOCALISATION</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Départements</a></li>
+            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Villes</a></li>
+            <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i>Zone-Plantations</a></li>
+            <!--<li><a href="pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
+            <li><a href="pages/UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
+            <li><a href="pages/UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>-->
+        </ul>
+    </li>
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-laptop"></i>
+            <span>GESTION PLANTATION</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Parcelles</a></li>
+            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Plantations</a></li>
+            <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i> Installations</a></li>
+            <li><a href="pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Conduites</a></li>
+            <li><a href="pages/UI/timeline.html"><i class="fa fa-circle-o"></i> Recoltes</a></li>
+            <li><a href="{{url('/')}}"><i class="fa fa-circle-o"></i> Modals</a></li>
+        </ul>
+    </li>
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-edit"></i> <span>ELEMENTS AGRICOLES</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Planteurs</a></li>
+            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Personnels</a></li>
+            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Appuis</a></li>
+            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i>Appuis-Planteur</a></li>
+            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Formations</a></li>
+            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Formations-Planteurs</a></li>
+        </ul>
+    </li>
     <li class="treeview">
         <a href="#">
             <i class="fa fa-pie-chart"></i>
-            <span>Charts</span>
+            <span>STATISTIQUES</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -56,47 +107,18 @@
     </li>
     <li class="treeview">
         <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>UI Elements</span>
+            <i class="fa fa-table"></i> <span>ADMINSTRATION</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
         </a>
         <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
-            <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i> Buttons</a></li>
-            <li><a href="pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
-            <li><a href="pages/UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
-            <li><a href="pages/UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
+            <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Roles</a></li>
+            <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i>Privillèges</a></li>
+            <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i>Utilisateurs</a></li>
         </ul>
     </li>
-    <li class="treeview">
-        <a href="#">
-            <i class="fa fa-edit"></i> <span>Forms</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
-        </ul>
-    </li>
-    <li class="treeview">
-        <a href="#">
-            <i class="fa fa-table"></i> <span>Tables</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-            <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
-        </ul>
-    </li>
-    <li>
+    <!--<li>
         <a href="pages/calendar.html">
             <i class="fa fa-calendar"></i> <span>Calendar</span>
             <span class="pull-right-container">
@@ -104,8 +126,8 @@
               <small class="label pull-right bg-blue">17</small>
             </span>
         </a>
-    </li>
-    <li>
+    </li>-->
+    <!--<li>
         <a href="pages/mailbox/mailbox.html">
             <i class="fa fa-envelope"></i> <span>Mailbox</span>
             <span class="pull-right-container">
@@ -114,8 +136,8 @@
               <small class="label pull-right bg-red">5</small>
             </span>
         </a>
-    </li>
-    <li class="treeview">
+    </li>-->
+    <!--<li class="treeview">
         <a href="#">
             <i class="fa fa-folder"></i> <span>Examples</span>
             <span class="pull-right-container">
@@ -133,8 +155,8 @@
             <li><a href="pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
             <li><a href="pages/examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
         </ul>
-    </li>
-    <li class="treeview">
+    </li>-->
+    <!--<li class="treeview">
         <a href="#">
             <i class="fa fa-share"></i> <span>Multilevel</span>
             <span class="pull-right-container">
@@ -166,8 +188,8 @@
             </li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
         </ul>
-    </li>
-    <li><a href="documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+    </li>-->
+    <!--<li><a href="documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>-->
     <li class="header">LABELS</li>
     <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
     <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
